@@ -1,0 +1,16 @@
+# CMake / 构建产物
+build/
+build-*/
+cmake-build-*/
+
+# 本地编译缓存（clangd 等）
+.cache/
+
+# macOS
+.DS_Store
+
+# 编辑器
+*.swp
+*~
+.vscode/
+.idea/
