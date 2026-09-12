@@ -1,0 +1,9 @@
+build/
+build-*/
+cmake-build-*/
+.cache/
+.DS_Store
+*.massif
+*.massif.*
+heaptrack.*.gz
+massif.out.*
