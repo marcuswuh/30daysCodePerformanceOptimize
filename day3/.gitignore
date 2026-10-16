@@ -1,0 +1,5 @@
+build/
+perf.data*
+*.folded
+.cache/
+.DS_Store

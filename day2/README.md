@@ -297,7 +297,7 @@ Google Benchmark 解决的是"如何计时与统计"；**正确性**仍取决于
 ## 3.2 工程结构
 
 ```
-day7/
+day2/
 ├── CMakeLists.txt
 ├── bench/
 │   ├── bench_dce.cpp          # 第一节：DCE 与优化级别
@@ -373,7 +373,7 @@ BubbleSort/1000             2.40 ms    items_per_second=416k
 
 
 
-## 3.7 Day 7 作业
+## 3.7 Day 2 作业
 
 1. 跑通 `./scripts/run_opt_compare.sh`，截图或记录 `NoKeep` vs `DoNotOptimize` 在 Release 下的差异，并用一句话解释原因。
 2. 跑通 `bench_sort_case`，填写下表（填你自己的 median 数据）：

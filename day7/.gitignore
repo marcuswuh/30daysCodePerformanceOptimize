@@ -1,0 +1,5 @@
+build/
+perf.data*
+heaptrack.*.gz
+reports/
+.cache/

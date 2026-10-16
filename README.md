@@ -80,4 +80,26 @@ This is an repo teach you how to optimize cpp code getting high performance
 4. **参考 CppCoreGuidelines 的 Performance 章节** 编写理论部分。
 5. **基于** `CSAPP` **实验** 设计第 4 周的综合性项目。
 
-GitHub 上素材丰富，完全可以支撑一个高质量的 30 天性能优化课程。如果你想进一步探讨如何整合这些资源，或者需要具体的课程设计建议，我可以继续帮你细化。
+## 第 1 周目录（Day 1–7）
+
+| 天 | 目录 | 内容 |
+| --- | --- | --- |
+| Day 1 | [day1/](day1/) | 概论 + 环境 + `bench_traverse` |
+| Day 2 | [day2/](day2/) | Google Benchmark、DCE、排序案例 |
+| Day 3 | [day3/](day3/) | `perf stat`、硬件计数器 |
+| Day 4 | [day4/](day4/) | `perf record` / `perf report`、火焰图 |
+| Day 5 | [day5/](day5/) | `perf annotate`、汇编对照 |
+| Day 6 | [day6/](day6/) | heaptrack、massif、分配追踪 |
+| Day 7 | [day7/](day7/) | `mini_grep` 综合剖析 + 报告模板 |
+
+## 第 2 周目录（Day 8–14）
+
+| 天 | 目录 | 内容 |
+| --- | --- | --- |
+| Day 8 | [day8/](day8/) | 缓存层次、行/列遍历 sweep |
+| Day 9 | [day9/](day9/) | AoS / SoA、冷热字段 |
+| Day 10 | [day10/](day10/) | 循环交换、分块、展开 |
+| Day 11 | [day11/](day11/) | 分支预测、LUT、无分支 |
+| Day 12 | [day12/](day12/) | 对象池、std::pmr Arena |
+| Day 13 | [day13/](day13/) | string_view、SSO、路径拼接 |
+| Day 14 | [day14/](day14/) | 盒式模糊实战 + 报告模板 |
